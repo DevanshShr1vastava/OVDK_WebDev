@@ -1,0 +1,30 @@
+.main_heading{
+    font-family: 'Rubik Marker Hatch', cursive;
+}
+
+.container{
+    padding-bottom: 70px;
+}
+
+.col{
+    padding-bottom: 20px;
+}
+
+.box{
+    height : 250px;
+    width : 250px;
+    border-style: solid;
+    border-radius: 25%;
+    border-width: 10px;
+    border-color : darkcyan;
+    object-fit:fill;
+}
+button{
+    background-color: white;
+    border-style: hidden;
+}
+
+.pressed{
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    opacity: 0.5;
+}

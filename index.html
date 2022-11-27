@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Virtual DrumKit</title>
+    <!--Linking google fonts-->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Marker+Hatch&display=swap" rel="stylesheet">
+
+    <!--Linking Bootstrap-->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+    <!--link local css and js-->
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!--Top Heading area-->
+    <div class = "container">
+        <div class = "row justify-content-center">
+            <div class = "col-5">
+                <h1 id = "h1" class = "main_heading">Online Virtual DrumKit</h1>
+            </div>
+        </div>
+    </div>
+    <!--The Drum Kit area-->
+    <div class = "container">
+        <div class = "row">
+            <div class = "col d-flex justify-content-center">
+                <button type = "button" onClick = "kickf()"><img class = "a box" src = "Images/kick.png" alt = "Kick Image"></button> 
+            </div>
+            <div class = "col d-flex justify-content-center">
+                <button type = "button" onClick = "snaref()"><img class = "s box" src="Images/snare.png" alt="Snare Image"></button>
+            </div>
+            <div class = "col d-flex justify-content-center">
+                <button type = "button" onClick = "tom1f()"><img class = "d box" src="Images/tom1.png" alt="Tom1 Image"></button>
+            </div>
+            <div class = "col d-flex justify-content-center">
+                <button type = "button" onClick = "tom2f()"><img class = "f box" src="Images/tom2.png" alt="Tom2 Image"></button>
+            </div>
+            <div class = "col d-flex justify-content-center">
+                <button type = "button" onClick = "tom3f()"><img class = "g box" src="Images/tom3.png" alt="Tom3 Image"></button>
+            </div>
+            <div class = "col d-flex justify-content-center">
+                <button type = "button" onClick = "tom4f()"><img class = "h box" src="Images/tom4.png" alt="Tom4 Image"></button>
+            </div>
+            <div class = "col d-flex justify-content-center">
+                <button type = "button" onClick = "hatf()"><img class = "j box" src="Images/crash.png" alt="Hat Image"></button>
+            </div>
+        </div>
+    </div>
+    <footer>
+        keyboard can be used as well :
+        <ul>
+            <li>a - kick </li>
+            <li>s - Snare </li>
+            <li>d - Tom 1</li>
+            <li>f - Tom 2</li>
+            <li>g - Tom 3</li>
+            <li>h - Tom 4</li>
+            <li>j - Hat</li>
+        </ul>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
