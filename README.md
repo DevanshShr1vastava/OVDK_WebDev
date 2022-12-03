@@ -12,4 +12,4 @@ This is an online Virtual Drum Kit, you can either click the buttons or use keys
 
 ##Screenshot
 
-![screenshot](https://github.com/Scarredhealer/OVDK_WebDev/blob/main/Screenshot/ss1.png
+![screenshot](https://github.com/Scarredhealer/OVDK_WebDev/blob/main/Screenshot/ss1.png)
